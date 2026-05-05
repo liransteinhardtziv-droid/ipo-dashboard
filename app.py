@@ -17,6 +17,8 @@ import plotly.express as px
 import json, os
 from datetime import datetime
 from pathlib import Path
+import gspread
+from google.oauth2.service_account import Credentials
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -1759,17 +1761,36 @@ TAG_COLOR = {
 }
 
 
-def load_notes():
-    if NOTES_FILE.exists():
-        try:
-            return json.loads(NOTES_FILE.read_text(encoding="utf-8"))
-        except Exception:
-            return []
-    return []
+SHEET_COLS = ["id", "title", "type", "tag", "source", "date", "content"]
+SHEET_ID   = "16-1tYD1gHiMeo44Gge_b5BX9Ss2C6Q1dOKRwmGuexH0"
 
+@st.cache_resource
+def _gspread_client():
+    creds = Credentials.from_service_account_info(
+        st.secrets["gcp_service_account"],
+        scopes=["https://www.googleapis.com/auth/spreadsheets"],
+    )
+    return gspread.authorize(creds)
+
+def _get_sheet():
+    return _gspread_client().open_by_key(SHEET_ID).sheet1
+
+def load_notes():
+    try:
+        records = _get_sheet().get_all_records()
+        return records
+    except Exception:
+        return []
 
 def save_notes(notes):
-    NOTES_FILE.write_text(json.dumps(notes, ensure_ascii=False, indent=2), encoding="utf-8")
+    try:
+        sheet = _get_sheet()
+        sheet.clear()
+        sheet.append_row(SHEET_COLS)
+        for n in notes:
+            sheet.append_row([n.get(c, "") for c in SHEET_COLS])
+    except Exception as e:
+        st.error(f"שגיאה בשמירה: {e}")
 
 
 def render_notes_tab():
