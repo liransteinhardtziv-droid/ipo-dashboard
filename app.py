@@ -1965,7 +1965,7 @@ for col, (co, lbl, val, delta, ac) in zip(cols, top_kpis):
 st.markdown("<div style='height:20px'></div>", unsafe_allow_html=True)
 
 # ── Tabs ──────────────────────────────────────────────────────────────────────
-tab_r, tab_i, tab_t, tab_n = st.tabs(["🛡️  Rafael IPO", "✈️  IAI IPO", "📈  TASE Market", "📝  Team Notes"])
+tab_r, tab_i, tab_t = st.tabs(["🛡️  Rafael IPO", "✈️  IAI IPO", "📈  TASE Market"])
 
 with tab_r:
     render_tab(RAFAEL, "Rafael", RAFAEL_ACCENT)
@@ -1975,6 +1975,3 @@ with tab_i:
 
 with tab_t:
     render_tase_tab()
-
-with tab_n:
-    render_notes_tab()
