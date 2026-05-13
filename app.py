@@ -1421,9 +1421,10 @@ def render_risks(d, accent):
         sbg = severity_bg(row["Severity"])
         stc = status_color(row["Status"])
         url = row.get("URL", "")
+        src_name = row["Source"]
         link = (f'<a href="{url}" target="_blank" rel="noopener noreferrer" '
                 f'style="color:#3b82f6;font-size:0.78em;margin-left:6px;text-decoration:none;'
-                f'font-weight:700;opacity:0.8" title="{row[\"Source\"]}">↗</a>') if url else ""
+                f'font-weight:700;opacity:0.8" title="{src_name}">↗</a>') if url else ""
         card = f"""
         <div class="risk-card" style="border-left-color:{sc}">
           <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px">
