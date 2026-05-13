@@ -535,16 +535,28 @@ IAI = {
 
     # ── IPO structure ──────────────────────────────────────────────
     "structure": {
-        "float":       "25–30% in 3 tranches: Tranche 1 (10%) + Tranche 2 (8%) + Tranche 3 (7%)",
-        "type":        "TASE listing — phased tranches; institutional primary with potential public component",
-        "valuation":   "NIS 80–100B  ($25–32B USD)",
-        "stage":       "Advanced Advisory Phase — legal counsel (Gornitzky & Co.) retained; "
-                       "underwriters pending",
-        "state":       "State retains 70–75%. MoD hard cap: max 30% sold. "
-                       "No foreign investor control permitted.",
-        "underwriters":"Not yet appointed — beauty contest to begin at Week 6–8 of critical path.",
-        "exchange":    "TASE (Tel Aviv Stock Exchange)",
-        "source":      "iai_ipo_2026_strategic_analysis_20260503180732.pdf",
+        "float":           "25–30% in 3 tranches: Tranche 1 (10%) + Tranche 2 (8%) + Tranche 3 (7%)",
+        "float_url":       "https://www.haaretz.com/israel-news/2026-01-12/ty-article/.premium/israel-to-privatise-two-key-defense-firms-within-months-government-official-says/0000019b-b328-d352-afbb-b7eb5abd0000",
+        "float_src":       "Haaretz",
+        "type":            "TASE listing — phased tranches; institutional primary with potential public component",
+        "type_url":        "https://www.ynetnews.com/business/article/byqqynnbbe",
+        "type_src":        "Ynet",
+        "valuation":       "NIS 80–100B  ($25–32B USD)",
+        "valuation_url":   "https://www.ynetnews.com/business/article/byqqynnbbe",
+        "valuation_src":   "Ynet",
+        "stage":           "Advanced Advisory Phase — legal counsel (Gornitzky & Co.) retained; "
+                           "underwriters pending",
+        "stage_url":       "https://www.calcalistech.com/ctechnews/article/sjftmg11hbl",
+        "stage_src":       "Calcalist",
+        "state":           "State retains 70–75%. MoD hard cap: max 30% sold. "
+                           "No foreign investor control permitted.",
+        "state_url":       "https://www.jpost.com/defense-and-tech/article-883293",
+        "state_src":       "Jerusalem Post",
+        "underwriters":    "Not yet appointed — beauty contest to begin at Week 6–8 of critical path.",
+        "underwriters_url":"https://www.ynetnews.com/business/article/byqqynnbbe",
+        "underwriters_src":"Ynet",
+        "exchange":        "TASE (Tel Aviv Stock Exchange)",
+        "source":          "iai_ipo_2026_strategic_analysis_20260503180732.pdf",
     },
 
     # ── Financials ─────────────────────────────────────────────────
@@ -647,34 +659,44 @@ IAI = {
     "stakeholders": [
         ("Benjamin Netanyahu", "Government",     "Prime Minister — final political authority & IPO sponsor",
          "Critical",  "Champion — Active",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Times of Israel",
+         "https://www.timesofisrael.com/israel-eyes-privatization-of-defense-giants-iai-and-rafael-via-public-share-sale/"),
         ("David Amsalem",      "Government",     "GCA Chair; Privatization Committee",
          "Very High", "Champion — Active",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Haaretz",
+         "https://www.haaretz.com/israel-news/2026-01-12/ty-article/.premium/israel-to-privatise-two-key-defense-firms-within-months-government-official-says/0000019b-b328-d352-afbb-b7eb5abd0000"),
         ("Roi Kahlon",         "Government",     "GCA Director — operational driver & public spokesperson",
          "High",      "Champion",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Calcalist",
+         "https://www.calcalistech.com/ctechnews/article/sjftmg11hbl"),
         ("Israel Katz",        "Government",     "Defense Minister",
          "High",      "Conditional — security conditions",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Jerusalem Post",
+         "https://www.jpost.com/defense-and-tech/article-883293"),
         ("Amir Baram",         "Government",     "MoD Director-General — enforces 30% cap & simultaneity",
          "High",      "Conditional — 30% cap + simultaneity with Rafael",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Jerusalem Post",
+         "https://www.jpost.com/defense-and-tech/article-883293"),
         ("Boaz Levy",          "IAI Internal",   "CEO — public advocate & operational preparation (85% complete)",
          "High",      "Enabler — Active",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Defence Industry Europe",
+         "https://defence-industry.eu/israel-aerospace-industries-reports-record-2025-financial-results-with-strong-growth-and-order-backlog-nearing-30-billion/"),
         ("Vacant Board Chair", "IAI Internal",   "Board governance — position vacant >1 year",
          "High",      "Blocker — Governance gap",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Calcalist",
+         "https://www.calcalistech.com/ctechnews/article/sjftmg11hbl"),
         ("Yair Katz",          "Labor",          "IAI Workers' Union Chair — wage amendment demand",
          "High",      "Blocker — wage law amendment demanded",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Calcalist",
+         "https://www.calcalistech.com/ctechnews/article/bknrsithbe"),
         ("Gornitzky & Co.",    "Legal/Advisors", "Legal counsel retained by IAI/GCA",
          "Medium",    "Enabler — building legal framework",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Calcalist",
+         "https://www.calcalistech.com/ctechnews/article/sjftmg11hbl"),
         ("Underwriting Syndicate", "Financial/Advisors", "Lead managers for TASE listing — not yet appointed",
          "Medium",    "Pending — beauty contest not started",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Ynet",
+         "https://www.ynetnews.com/business/article/byqqynnbbe"),
     ],
 
     # ── Risks ──────────────────────────────────────────────────────
@@ -744,18 +766,28 @@ IAI = {
             "Operational readiness is 85%; political readiness is only 60%."
         ),
         "conditions": [
-            "Wage-law amendment resolved — broker compromise between union and government",
-            "MoD simultaneity requirement waived or Rafael IPO accelerated",
-            "Permanent Board Chair appointed (critical path: Week 4–6)",
-            "Stake-size conflict resolved (30% vs. 49%)",
-            "Underwriting syndicate selected and formally engaged",
+            ("Wage-law amendment resolved — broker compromise between union and government",
+             "https://www.calcalistech.com/ctechnews/article/bknrsithbe", "Calcalist"),
+            ("MoD simultaneity requirement waived or Rafael IPO accelerated",
+             "https://www.jpost.com/defense-and-tech/article-883293", "Jerusalem Post"),
+            ("Permanent Board Chair appointed (critical path: Week 4–6)",
+             "https://www.calcalistech.com/ctechnews/article/sjftmg11hbl", "Calcalist"),
+            ("Stake-size conflict resolved (30% vs. 49%)",
+             "https://www.timesofisrael.com/israel-eyes-privatization-of-defense-giants-iai-and-rafael-via-public-share-sale/", "Times of Israel"),
+            ("Underwriting syndicate selected and formally engaged",
+             "https://www.ynetnews.com/business/article/byqqynnbbe", "Ynet"),
         ],
         "concerns": [
-            "Simultaneity clause could delay IAI by up to 18–30 months for political, not financial, reasons",
-            "Union wage-law standoff is the most-cited blocker across all source documents",
-            "Vacant Board Chair is an unusual governance risk for an imminent IPO",
-            "TASE may struggle to absorb a NIS 80–100B offering domestically",
-            "Q2 2026 target may be too aggressive given the number of unresolved dependencies",
+            ("Simultaneity clause could delay IAI by up to 18–30 months for political, not financial, reasons",
+             "https://www.jpost.com/defense-and-tech/article-883293", "Jerusalem Post"),
+            ("Union wage-law standoff is the most-cited blocker across all source documents",
+             "https://www.calcalistech.com/ctechnews/article/bknrsithbe", "Calcalist"),
+            ("Vacant Board Chair is an unusual governance risk for an imminent IPO",
+             "https://www.calcalistech.com/ctechnews/article/sjftmg11hbl", "Calcalist"),
+            ("TASE may struggle to absorb a NIS 80–100B offering domestically",
+             "https://www.ynetnews.com/business/article/byqqynnbbe", "Ynet"),
+            ("Q2 2026 target may be too aggressive given the number of unresolved dependencies",
+             "https://www.ynetnews.com/business/article/byqqynnbbe", "Ynet"),
         ],
         "source": "iai_ipo_2026_strategic_analysis_20260503180732.pdf",
     },
@@ -1151,33 +1183,45 @@ def render_structure(d, accent):
     s = d["structure"]
 
     c1, c2, c3 = st.columns(3, gap="medium")
-    for col, lbl, val in [
-        (c1, "Float Target",       s["float"][:35] + "…" if len(s["float"]) > 35 else s["float"]),
-        (c2, "Expected Valuation", s["valuation"]),
-        (c3, "Exchange",           s["exchange"]),
+    for col, lbl, val, url, src in [
+        (c1, "Float Target",       s["float"][:35] + "…" if len(s["float"]) > 35 else s["float"],
+         s.get("float_url",""), s.get("float_src","")),
+        (c2, "Expected Valuation", s["valuation"],
+         s.get("valuation_url",""), s.get("valuation_src","")),
+        (c3, "Exchange",           s["exchange"], "", ""),
     ]:
         with col:
+            lnk = (f'<a href="{url}" target="_blank" rel="noopener noreferrer" '
+                   f'style="color:#3b82f6;font-size:0.65em;margin-left:5px;text-decoration:none;'
+                   f'font-weight:700;opacity:0.75" title="{src}">↗</a>') if url else ""
             st.markdown(
                 f'<div class="kpi-card">'
                 f'<div class="kpi-lbl">{lbl}</div>'
-                f'<div class="kpi-val" style="color:{accent};font-size:1.35em">{val}</div>'
+                f'<div class="kpi-val" style="color:{accent};font-size:1.35em">{val}{lnk}</div>'
                 f'</div>', unsafe_allow_html=True,
             )
 
     st.markdown("<div style='height:16px'></div>", unsafe_allow_html=True)
 
+    def _src_link(url, src):
+        if not url:
+            return ""
+        return (f'<a href="{url}" target="_blank" rel="noopener noreferrer" '
+                f'style="color:#3b82f6;font-size:0.75em;margin-left:6px;text-decoration:none;'
+                f'font-weight:700;opacity:0.75" title="{src}">↗</a>')
+
     fields = [
-        ("Offering Type",        s["type"]),
-        ("Current Stage",        s["stage"]),
-        ("Underwriters",         s["underwriters"]),
-        ("Float Target (full)",  s["float"]),
-        ("State Control",        s["state"]),
+        ("Offering Type",       s["type"],         s.get("type_url",""),         s.get("type_src","")),
+        ("Current Stage",       s["stage"],        s.get("stage_url",""),        s.get("stage_src","")),
+        ("Underwriters",        s["underwriters"], s.get("underwriters_url",""), s.get("underwriters_src","")),
+        ("Float Target (full)", s["float"],        s.get("float_url",""),        s.get("float_src","")),
+        ("State Control",       s["state"],        s.get("state_url",""),        s.get("state_src","")),
     ]
     html = '<div style="background:white;border-radius:12px;padding:4px 20px;box-shadow:0 1px 4px rgba(0,0,0,0.06),0 0 0 1px #e8ecf0;">'
-    for lbl, val in fields:
+    for lbl, val, url, src in fields:
         html += (f'<div class="struct-row">'
                  f'<span class="struct-label">{lbl}</span>'
-                 f'<span class="struct-value">{val}</span></div>')
+                 f'<span class="struct-value">{val}{_src_link(url, src)}</span></div>')
     html += "</div>"
     st.markdown(html, unsafe_allow_html=True)
 
@@ -1343,7 +1387,8 @@ def render_stakeholders(d, accent):
     section("Stakeholders", "👥", accent)
 
     rows = [{"Actor":s[0],"Group":s[1],"Role":s[2],
-             "Influence":s[3],"Position":s[4],"Source":s[5]}
+             "Influence":s[3],"Position":s[4],"Source":s[5],
+             "URL": s[6] if len(s) > 6 else ""}
             for s in d["stakeholders"]]
     df = pd.DataFrame(rows)
 
@@ -1356,11 +1401,16 @@ def render_stakeholders(d, accent):
     for _, row in view.iterrows():
         pc = position_color(row["Position"])
         bg = _rgba(pc, 0.10)
+        url = row.get("URL", "")
+        src_name = row["Source"]
+        link = (f'<a href="{url}" target="_blank" rel="noopener noreferrer" '
+                f'style="color:#3b82f6;font-size:0.72em;margin-left:4px;text-decoration:none;'
+                f'font-weight:700;opacity:0.8" title="{src_name}">↗</a>') if url else ""
         html += f"""
         <div class="stk-card">
           <div class="stk-avatar" style="background:{pc}">{initials(row['Actor'])}</div>
           <div style="min-width:0">
-            <div class="stk-name">{row['Actor']}</div>
+            <div class="stk-name">{row['Actor']}{link}</div>
             <div class="stk-group">{row['Group']}</div>
             <div class="stk-role">{row['Role']}</div>
             <div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px">
@@ -1513,8 +1563,15 @@ def render_sentiment(d, accent):
             'letter-spacing:0.6px;color:#64748b;margin:14px 0 8px">Conditions for Success</div>',
             unsafe_allow_html=True,
         )
-        for x in s["conditions"]:
-            st.markdown(f'<div class="cond-item">✅ {x}</div>', unsafe_allow_html=True)
+        for item in s["conditions"]:
+            if isinstance(item, tuple):
+                txt, url, src = item[0], item[1] if len(item) > 1 else "", item[2] if len(item) > 2 else ""
+            else:
+                txt, url, src = item, "", ""
+            lnk = (f'<a href="{url}" target="_blank" rel="noopener noreferrer" '
+                   f'style="color:#3b82f6;font-size:0.75em;margin-left:5px;text-decoration:none;'
+                   f'font-weight:700;opacity:0.8" title="{src}">↗</a>') if url else ""
+            st.markdown(f'<div class="cond-item">✅ {txt}{lnk}</div>', unsafe_allow_html=True)
 
     with c2:
         st.markdown(
@@ -1522,8 +1579,15 @@ def render_sentiment(d, accent):
             'letter-spacing:0.6px;color:#64748b;margin-bottom:8px">Key Concerns</div>',
             unsafe_allow_html=True,
         )
-        for x in s["concerns"]:
-            st.markdown(f'<div class="concern-item">⚠️ {x}</div>', unsafe_allow_html=True)
+        for item in s["concerns"]:
+            if isinstance(item, tuple):
+                txt, url, src = item[0], item[1] if len(item) > 1 else "", item[2] if len(item) > 2 else ""
+            else:
+                txt, url, src = item, "", ""
+            lnk = (f'<a href="{url}" target="_blank" rel="noopener noreferrer" '
+                   f'style="color:#3b82f6;font-size:0.75em;margin-left:5px;text-decoration:none;'
+                   f'font-weight:700;opacity:0.8" title="{src}">↗</a>') if url else ""
+            st.markdown(f'<div class="concern-item">⚠️ {txt}{lnk}</div>', unsafe_allow_html=True)
 
 
 def render_sources(d, accent):
