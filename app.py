@@ -499,18 +499,24 @@ IAI = {
         ),
         "insights": [
             ("FY2025 revenue $7.38B (+12.5% YoY); order backlog $29–30B — largest in company history.",
-             "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+             "Defence Industry Europe",
+             "https://defence-industry.eu/israel-aerospace-industries-reports-record-2025-financial-results-with-strong-growth-and-order-backlog-nearing-30-billion/"),
             ("GCA valuation estimate: NIS 80–100B ($25–32B USD) — comparable to Elbit Systems.",
-             "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+             "Ynet",
+             "https://www.ynetnews.com/business/article/byqqynnbbe"),
             ("Critical blocker: union (Yair Katz) demands Budget Foundations Law wage amendment "
              "before supporting IPO.",
-             "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+             "Calcalist",
+             "https://www.calcalistech.com/ctechnews/article/bknrsithbe"),
             ("Stake conflict: GCA seeks 49% vs. MoD's hard 30% cap — unresolved as of May 2026.",
-             "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+             "Times of Israel",
+             "https://www.timesofisrael.com/israel-eyes-privatization-of-defense-giants-iai-and-rafael-via-public-share-sale/"),
             ("MoD requires simultaneous listing with Rafael, which is 18–30 months behind IAI.",
-             "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+             "Jerusalem Post",
+             "https://www.jpost.com/defense-and-tech/article-883293"),
             ("Board Chair position vacant >1 year — critical governance gap for an imminent IPO.",
-             "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+             "Calcalist",
+             "https://www.calcalistech.com/ctechnews/article/sjftmg11hbl"),
         ],
         "drivers": [
             "Fiscal: state revenue need — NIS 20–30B IPO proceeds reduce debt-to-GDP",
@@ -573,46 +579,60 @@ IAI = {
     "timeline": [
         ("2003–2010",    "Recurring Knesset debates on privatization; MoD opposed",
          "Long history of failed privatization attempts — establishes political complexity",
-         "Completed",    "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Completed",    "Wikipedia",
+         "https://en.wikipedia.org/wiki/Israel_Aerospace_Industries"),
         ("Nov 2020",     "Ministerial Committee approves sale of up to 49%",
          "First formal government approval for IAI IPO", "Completed",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Times of Israel",
+         "https://www.timesofisrael.com/israel-eyes-privatization-of-defense-giants-iai-and-rafael-via-public-share-sale/"),
         ("H1 2021",      "IPO process stalls due to security concerns",
          "First failed attempt — disclosure barrier identified as key obstacle", "Completed",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "IsraelDesks",
+         "https://israeldesks.com/iai-eyes-tase-ipo-in-2025/"),
         ("Oct 7, 2023",  "Gaza War begins — global defense demand surges",
          "Demand explosion accelerates IPO urgency and peak valuation timing", "Completed",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Ynet",
+         "https://www.ynetnews.com/business/article/by1omdr5ze"),
         ("Oct–Nov 2025", "PMO political re-authorization of IPO process",
          "IPO track revived at highest political level", "Completed",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Jerusalem Post",
+         "https://www.jpost.com/defense-and-tech/article-883293"),
         ("Jan 2026",     "GCA formalizes 25–30% stake-sale target",
          "Operational target set; first public announcement of current phase", "Completed",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Haaretz",
+         "https://www.haaretz.com/israel-news/2026-01-12/ty-article/.premium/israel-to-privatise-two-key-defense-firms-within-months-government-official-says/0000019b-b328-d352-afbb-b7eb5abd0000"),
         ("Mar 2026",     "MoD conditional approval — 30% hard cap imposed",
          "MoD sets hard limit; creates stake conflict with GCA's 49% target", "In Progress",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Jerusalem Post",
+         "https://www.jpost.com/defense-and-tech/article-883293"),
         ("May 2026",     "Current phase: Advanced Advisory — Gornitzky & Co. retained",
          "Legal framework being built; critical path defined (IPO prep 85% complete)", "Active",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Calcalist",
+         "https://www.calcalistech.com/ctechnews/article/sjftmg11hbl"),
         ("Week 1–2",     "Broker compromise on wage framework (critical path)",
          "Union deal must precede IPO — single highest-probability blocker", "Upcoming",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Calcalist",
+         "https://www.calcalistech.com/ctechnews/article/bknrsithbe"),
         ("Week 2–4",     "Resolve stake-size policy conflict (GCA 49% vs. MoD 30%)",
          "Determines actual float size and proceeds allocation", "Upcoming",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Times of Israel",
+         "https://www.timesofisrael.com/israel-eyes-privatization-of-defense-giants-iai-and-rafael-via-public-share-sale/"),
         ("Week 4–6",     "Appoint permanent Board Chair",
          "Closes 1+ year governance gap; prerequisite for stock-exchange listing", "Upcoming",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Calcalist",
+         "https://www.calcalistech.com/ctechnews/article/sjftmg11hbl"),
         ("Week 6–8",     "Begin underwriter beauty contest",
          "Selecting lead managers for TASE listing", "Upcoming",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Ynet",
+         "https://www.ynetnews.com/business/article/byqqynnbbe"),
         ("Week 8–10",    "TASE investor education roadshow begins",
          "Market preparation for institutional investors", "Upcoming",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Ynet",
+         "https://www.ynetnews.com/business/article/byqqynnbbe"),
         ("Q2 2026",      "IPO launch — first tranche (10%)",
          "Historic first public listing of IAI on TASE", "Upcoming",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Ynet",
+         "https://www.ynetnews.com/business/article/byqqynnbbe"),
     ],
 
     # ── Stakeholders ───────────────────────────────────────────────
@@ -656,45 +676,53 @@ IAI = {
          "Without this, union will not support IPO. "
          "Described as the single highest-probability blocker.",
          "High",   "Open — Blocking IPO",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Calcalist",
+         "https://www.calcalistech.com/ctechnews/article/bknrsithbe"),
         ("Regulation", "Stake-Size Conflict (GCA 49% vs. MoD 30%)",
          "GCA seeks 49% stake sale; MoD imposes hard 30% cap. "
          "Directly impacts proceeds (NIS 80–100B vs ~50B) and investor appetite.",
          "High",   "Open",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Times of Israel",
+         "https://www.timesofisrael.com/israel-eyes-privatization-of-defense-giants-iai-and-rafael-via-public-share-sale/"),
         ("Security",   "MoD Simultaneity Requirement with Rafael",
          "MoD requires IAI to list simultaneously with Rafael, "
          "which is 18–30 months behind IAI in readiness. "
          "Could delay an otherwise-ready process by up to 2.5 years.",
          "High",   "Open",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Jerusalem Post",
+         "https://www.jpost.com/defense-and-tech/article-883293"),
         ("Political",  "Vacant Board Chair — Governance Gap",
          "IAI Board Chair vacant >1 year. "
          "Critical governance prerequisite for a public company listing. "
          "On critical path: appointment at Week 4–6.",
          "High",   "Open — Critical",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Calcalist",
+         "https://www.calcalistech.com/ctechnews/article/sjftmg11hbl"),
         ("Security",   "ISA Disclosure vs. Classified Programs",
          "Full public disclosure requirements conflict with classified defense programs. "
          "ISA framework noted as 'Resolved' in source — structural tension remains.",
          "Medium", "In Progress",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Ynet",
+         "https://www.ynetnews.com/business/article/byqqynnbbe"),
         ("Market",     "TASE Absorption Capacity & Geopolitical Risk",
          "Israeli market capacity to absorb NIS 80–100B offering is uncertain. "
          "Geopolitical escalation could damage investor sentiment.",
          "Medium", "Monitored",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Ynet",
+         "https://www.ynetnews.com/business/article/by1omdr5ze"),
         ("Execution",  "Underwriting Syndicate Not Appointed",
          "No underwriters formally selected. Beauty contest not yet started. "
          "Critical path: Week 6–8 — tight for a Q2 2026 target.",
          "Medium", "Open",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Calcalist",
+         "https://www.calcalistech.com/ctechnews/article/sjftmg11hbl"),
         ("Political",  "Coalition & Election Dynamics",
          "Vacant Board Chair + coalition instability. "
          "Political pressure to complete before elections may force "
          "a rushed or suboptimal deal structure.",
          "Medium", "Open",
-         "iai_ipo_2026_strategic_analysis_20260503180732.pdf"),
+         "Jerusalem Post",
+         "https://www.jpost.com/defense-and-tech/article-883293"),
     ],
 
     # ── Sentiment ──────────────────────────────────────────────────
@@ -1067,11 +1095,17 @@ def render_exec(d, accent):
             f'letter-spacing:0.6px;color:#64748b;margin-bottom:10px">Key Insights</div>',
             unsafe_allow_html=True,
         )
-        for i, (txt, src) in enumerate(e["insights"], 1):
+        for i, item in enumerate(e["insights"], 1):
+            txt = item[0]
+            src = item[1] if len(item) > 1 else ""
+            url = item[2] if len(item) > 2 else ""
+            link = (f'<a href="{url}" target="_blank" rel="noopener noreferrer" '
+                    f'style="color:#3b82f6;font-size:0.78em;margin-left:6px;text-decoration:none;'
+                    f'font-weight:700;vertical-align:middle;opacity:0.8" title="{src}">↗</a>') if url else ""
             st.markdown(
                 f'<div class="insight-card" style="border-left-color:{accent}">'
-                f'<span class="insight-num" style="color:{accent}">{i}.</span>{txt}'
-                f'<br><span class="src-tag">📄 {src}</span></div>',
+                f'<span class="insight-num" style="color:{accent}">{i}.</span>{txt}{link}'
+                f'</div>',
                 unsafe_allow_html=True,
             )
 
@@ -1268,15 +1302,19 @@ def render_timeline(d, accent):
     }
     html = '<div style="background:white;border-radius:12px;padding:4px 20px;box-shadow:0 1px 4px rgba(0,0,0,0.06),0 0 0 1px #e8ecf0;">'
     for t in d["timeline"]:
-        date, event, sig, status, src = t
+        date, event, sig, status, src = t[0], t[1], t[2], t[3], t[4]
+        url = t[5] if len(t) > 5 else ""
         tc, tbg = status_cfg.get(status, ("#64748b", "#f8fafc"))
+        link = (f'<a href="{url}" target="_blank" rel="noopener noreferrer" '
+                f'style="color:#3b82f6;font-size:0.78em;margin-left:6px;text-decoration:none;'
+                f'font-weight:700;opacity:0.8" title="{src}">↗</a>') if url else ""
         html += f"""
         <div style="display:flex;align-items:flex-start;gap:14px;padding:11px 0;
                     border-bottom:1px solid #f1f5f9;font-size:0.87em">
           <div style="width:100px;flex-shrink:0;font-weight:700;color:#475569;
                       padding-top:2px">{date}</div>
           <div style="flex:1;min-width:0">
-            <div style="font-weight:600;color:#1e293b;margin-bottom:3px">{event}</div>
+            <div style="font-weight:600;color:#1e293b;margin-bottom:3px">{event}{link}</div>
             <div style="color:#64748b;font-size:0.93em;line-height:1.45">{sig}</div>
           </div>
           <div style="flex-shrink:0">
@@ -1367,7 +1405,8 @@ def render_risks(d, accent):
     section("Risks & Constraints", "⚠️", accent)
 
     rows = [{"Category":r[0],"Risk":r[1],"Description":r[2],
-             "Severity":r[3],"Status":r[4],"Source":r[5]}
+             "Severity":r[3],"Status":r[4],"Source":r[5],
+             "URL": r[6] if len(r) > 6 else ""}
             for r in d["risks"]]
     df = pd.DataFrame(rows)
 
@@ -1381,10 +1420,14 @@ def render_risks(d, accent):
         sc  = severity_color(row["Severity"])
         sbg = severity_bg(row["Severity"])
         stc = status_color(row["Status"])
+        url = row.get("URL", "")
+        link = (f'<a href="{url}" target="_blank" rel="noopener noreferrer" '
+                f'style="color:#3b82f6;font-size:0.78em;margin-left:6px;text-decoration:none;'
+                f'font-weight:700;opacity:0.8" title="{row[\"Source\"]}">↗</a>') if url else ""
         card = f"""
         <div class="risk-card" style="border-left-color:{sc}">
           <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px">
-            <span class="risk-title">{row['Risk']}</span>
+            <span class="risk-title">{row['Risk']}{link}</span>
           </div>
           <div class="risk-desc">{row['Description']}</div>
           <div style="display:flex;flex-wrap:wrap;gap:5px;align-items:center">
