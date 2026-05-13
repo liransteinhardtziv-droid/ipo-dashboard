@@ -551,13 +551,21 @@ IAI = {
     "fin": {
         "revenue":       7.38,
         "revenue_delta": "+12.5% YoY",
+        "revenue_url":   "https://defence-industry.eu/israel-aerospace-industries-reports-record-2025-financial-results-with-strong-growth-and-order-backlog-nearing-30-billion/",
+        "revenue_src":   "Defence Industry Europe",
         "net_profit":    0.712,
         "profit_delta":  "+8.3% YoY",
+        "profit_url":    "https://defence-industry.eu/israel-aerospace-industries-reports-record-2025-financial-results-with-strong-growth-and-order-backlog-nearing-30-billion/",
+        "profit_src":    "Defence Industry Europe",
         "backlog_label": "$29–30B",
         "backlog":       29.5,
-        "backlog_delta": "Not specified in the source files",
+        "backlog_delta": "Largest in company history",
+        "backlog_url":   "https://defence-industry.eu/israel-aerospace-industries-reports-record-2025-financial-results-with-strong-growth-and-order-backlog-nearing-30-billion/",
+        "backlog_src":   "Defence Industry Europe",
         "ebitda":        1.08,
         "ebitda_delta":  "+15.2% YoY",
+        "ebitda_url":    "https://defence-industry.eu/israel-aerospace-industries-reports-record-2025-financial-results-with-strong-growth-and-order-backlog-nearing-30-billion/",
+        "ebitda_src":    "Defence Industry Europe",
         "ebitda_margin": "14.6%",
         "net_margin":    "9.6%",
         "cash":          3.9,
@@ -1180,19 +1188,23 @@ def render_financials(d, accent):
 
     backlog_disp = f.get("backlog_label") or f"${f['backlog']}B"
     kpis = [
-        ("Revenue 2025",  f"${f['revenue']}B",   f.get("revenue_delta","")),
-        ("Net Profit",    f"${f['net_profit']}B", f.get("profit_delta","")),
-        ("Order Backlog", backlog_disp,            f.get("backlog_delta","")),
-        ("EBITDA",        f"${f['ebitda']}B",      f.get("ebitda_delta","")),
+        ("Revenue 2025",  f"${f['revenue']}B",   f.get("revenue_delta",""),  f.get("revenue_url",""),  f.get("revenue_src","")),
+        ("Net Profit",    f"${f['net_profit']}B", f.get("profit_delta",""),   f.get("profit_url",""),   f.get("profit_src","")),
+        ("Order Backlog", backlog_disp,            f.get("backlog_delta",""),  f.get("backlog_url",""),  f.get("backlog_src","")),
+        ("EBITDA",        f"${f['ebitda']}B",      f.get("ebitda_delta",""),   f.get("ebitda_url",""),   f.get("ebitda_src","")),
     ]
     cols = st.columns(4, gap="medium")
-    for col, (lbl, val, delta) in zip(cols, kpis):
+    for col, (lbl, val, delta, url, src) in zip(cols, kpis):
         with col:
+            delta_txt = delta if delta and "Not specified" not in delta else ""
+            link = (f'<a href="{url}" target="_blank" rel="noopener noreferrer" '
+                    f'style="color:#3b82f6;font-size:0.75em;margin-left:5px;text-decoration:none;'
+                    f'font-weight:700;opacity:0.75" title="{src}">↗</a>') if url else ""
             st.markdown(
                 f'<div class="kpi-card">'
-                f'<div class="kpi-val" style="color:{accent}">{val}</div>'
+                f'<div class="kpi-val" style="color:{accent}">{val}{link}</div>'
                 f'<div class="kpi-lbl">{lbl}</div>'
-                f'<div class="kpi-delta">{delta if "Not specified" not in delta else ""}</div>'
+                f'<div class="kpi-delta">{delta_txt}</div>'
                 f'</div>', unsafe_allow_html=True,
             )
 
